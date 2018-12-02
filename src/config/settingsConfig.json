@@ -24,10 +24,10 @@
         }
     },
     "emailConfig":{
-        "host":"smtp.gmail.com",
-        "port":587,
-        "userName":"kumaresan.kadarkarai@gmail.com",
-        "password":"edwinson"
+        "host":"***",
+        "port":**,
+        "userName":"***",
+        "password":"****"
     },
     "baseURL":"http://localhost:8883/v1/User/"
 

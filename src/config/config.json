@@ -4,11 +4,11 @@
 
         "connectionLimit": 100,
         "acquireTimeout": 10000,
-        "host": "192.168.77.7",
-        "port": 3306,
-        "user": "auth_admin",
-        "password": "YSTyH8bPdNcxjGlgVVc99Q==",
-        "database": "AUTH_RTXBLDEV"
+        "host": "******",
+        "port": ***,
+        "user": "*****",
+        "password": "******",
+        "database": "******"
 
 
     },
