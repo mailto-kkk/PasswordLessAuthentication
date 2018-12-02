@@ -1,4 +1,4 @@
-# Authentication Module
+# PasswordLess Authentication Module
 
 1. To get the PasswordLessAuthenticationAPI project to your machine, Git clone
 2. To download npm modules, run command "npm install" from the src directory of PasswordLessAuthentication
