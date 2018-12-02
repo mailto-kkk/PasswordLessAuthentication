@@ -1,0 +1,34 @@
+{
+    "keys": [
+        {
+            "key": {
+                "value": "Basic T0NUZXN0aW5nOlByb3RlY3QkMQ=="
+            }
+        }
+    ],
+    "errorConfig":{
+        "loginAlreadyExists": {
+            "errorType" : "application",
+            "errorCode": "1001",
+            "errorMessage" : "Login already exists"
+        },
+        "invalidRole": {
+            "errorType" : "application",
+            "errorCode": "1003",
+            "errorMessage" : "Role does not exist"
+        },
+        "invalidCredentials": {
+            "errorType" : "application",
+            "errorCode": "1004",
+            "errorMessage" : "Invalid credentials"
+        }
+    },
+    "emailConfig":{
+        "host":"smtp.gmail.com",
+        "port":587,
+        "userName":"kumaresan.kadarkarai@gmail.com",
+        "password":"edwinson"
+    },
+    "baseURL":"http://localhost:8883/v1/User/"
+
+}

@@ -1,0 +1,52 @@
+{
+    "port": 8883,
+    "dbConfig": {
+
+        "connectionLimit": 100,
+        "acquireTimeout": 10000,
+        "host": "192.168.77.7",
+        "port": 3306,
+        "user": "auth_admin",
+        "password": "YSTyH8bPdNcxjGlgVVc99Q==",
+        "database": "AUTH_RTXBLDEV"
+
+
+    },
+	"loggerConfig": {
+        "appenders": {
+            "console": { "type": "console" },
+            "dateFile": {
+                "type": "dateFile",
+                "filename": "logs/password_less_api_common.log",
+                "pattern": "-yyyy-MM-dd",
+                "alwaysIncludePattern": false
+            }
+        },
+        "categories": {
+            "PASSWORD_LESS_API": { "appenders": ["dateFile"], "level": "ALL" },
+            "default": { "appenders": ["console"], "level": "ALL" }
+        },
+        "printLineNumber": true
+    },
+    "middleware": {
+        "appsec": {
+            "module": {
+                "arguments": [
+                    {
+                        "csrf": false
+                    }
+                ]
+            }
+        },
+        "router": {
+            "module": {
+                "arguments": [
+                    {
+                        "directory": "path:./controllers"
+                    }
+                ]
+            }
+        }
+
+    }
+}
