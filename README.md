@@ -29,10 +29,10 @@ Instead, system will generate one time signature. This signature along with 'log
 	- It will create a new user.We are maintaining uniqness based on 'login' field. 
 	- After user creation, it will send email with 'userReference' to the user.
 	
-2. <Base URL>/v1/User/<userReference>/verify
+2. <Base URL>/v1/User/:userReference/verify
 	- Generate One time signature and send the signature to user's 'login' field.
 	- If the 'userReference' is wrong, it will throw 404 error.
 	
-2. <Base URL>/v1/User/<userReference>/login
+2. <Base URL>/v1/User/:userReference/login
 	- Based on  One time signature and 'login' field, system will authenticate
 	- After the successful authentication, system will invalidate the signature generated at the previous end point
