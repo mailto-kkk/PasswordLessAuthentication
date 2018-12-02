@@ -42,3 +42,7 @@ Instead, system will generate one time signature. This signature along with 'log
 2. <Base URL>/v1/User/:userReference/login
 	- Based on  One time signature and 'login' field, system will authenticate
 	- After the successful authentication, system will invalidate the signature generated at the previous end point
+	
+PostMan Script
+***************
+Find the post man script in postmanScript\PasswordLess Auth System.postman_collection.json
