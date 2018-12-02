@@ -16,6 +16,10 @@ Configuration Change
 3. Basic Authentication is configured in config\SettingsConfig.json
 4. SMTP details are configured in config\SettingsConfig.json
 
+DB script
+************
+DBScript for creating table is in db\scripts folder
+
 Running the API
 **************
 1. Do the neccessary configurations inside the file 'config.json' under folder config, like
